@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&family=Slackside+One&display=swap" rel="stylesheet">
+    <title>JS-Notes</title>
+</head>
+<body>
+    <div class="containers">
+        <section id="greeting">
+            <div>
+              <button id="hiButton">Say Hi!</button>
+              <h1>Helloooo!<span id="name"></span></h1>
+            </div>
+        </section>
+        <section id="modalTest">
+            <button id="openModalButton">Open Modal</button>
+            <div class="modal">
+                <div class="modal__overlay"></div>
+                <div class="modal__content">
+                    <h1>Hello World!</h1>
+                    <p>Click anywhere in the modal to close it.</p>
+                </div>
+            </div>
+        </section>
+        <section id="colorFlipper">
+            <p>Click to change the color</p>
+        </section>
+        </section>
+        <section id="counter">
+            <div class="counterBox">
+                <h2 id="counterDisplay">0</h2>
+                <div id="counterControls">
+                    <button id="counterAdd">+</button>
+                    <button id="counterSub">-</button>
+                </div>
+            </div>
+        </section>
+        <section id="toDo">
+            <div class="todoContainer">
+                <h1>to do list</h1>
+                <input type="text" id="todoInputBar">
+                <button id="addToListButton">+</button>
+                <div class="listbox">
+                    <ul id="list"></ul>
+                </div>
+            </div>
+        </section>
+        
+        <script src="script.js"></script>
+       
+    </div>
+    
+</body>
+</html>
